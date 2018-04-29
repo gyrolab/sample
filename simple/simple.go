@@ -9,11 +9,11 @@ import (
 	"log"
 
 	"github.com/gyrolab/gyro"
-	"github.com/gyrolab/gyro-backend-nanovgo"
+	"github.com/gyrolab/gyro-backend-nano"
 )
 
 func init() {
-	gyro.RegisterBackend(nanovgo.New())
+	gyro.RegisterBackend(nano.New())
 }
 
 func main() {
